@@ -32,10 +32,13 @@ form{
 
 #name-label, #email-label{
     font-size: 20px;
-    position: relative;
-    top: 10;
     margin-left: 15px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+#name-label{
+    position: relative;
+    top: 20px;
 }
 
 p{
@@ -62,6 +65,7 @@ textarea{
 }
 
 #submit{
-    width: 80%;
+    width: 40%;
     margin-left: 15px;
+    margin-bottom: 20px;
 }
