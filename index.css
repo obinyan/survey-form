@@ -30,6 +30,10 @@ form{
     margin-left: 15px;
 }
 
+#name{
+    margin-top: 10px;
+}
+
 #name-label, #email-label{
     font-size: 20px;
     margin-left: 15px;
@@ -51,6 +55,7 @@ p{
 .radio{
     margin-top: 10px;
     margin-left: 15px;
+    align-items: center;
 }
 
 .text{
@@ -65,7 +70,7 @@ textarea{
 }
 
 #submit{
-    width: 40%;
+    width: 30%;
     margin-left: 15px;
     margin-bottom: 20px;
 }
