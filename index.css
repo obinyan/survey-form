@@ -5,6 +5,7 @@
 
 body{
     background-color: #472be7;
+    opacity: 70%;
 }
 
 h1{
@@ -31,7 +32,7 @@ form{
 }
 
 #name{
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 #name-label, #email-label{
@@ -68,14 +69,16 @@ textarea{
     width: 80%;
     height: 100px;
     margin-left: 15px;
+    margin-top: 7px;
 }
 
 #submit{
-    width: 30%;
+    width: 27%;
     height: 30px;
     margin-left: 15px;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 27px;
     background-color: #472be7;
+    opacity: 70%;
     color: #ffffff;
 }
