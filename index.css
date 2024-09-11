@@ -86,12 +86,14 @@ textarea{
 /** The desktop responsiveness **/
 @media only screen and (min-width: 768px){
     form{
-        margin: 30px;
+        margin: 50px;
     }
 
     #name, #email{
-        display: inline;
-        width: 50%;
+        display: flex;
+        flex-direction: row;
+        gap: 5px;
+        width: 40%;
         margin-left: 20px;
     }
 
@@ -105,5 +107,9 @@ textarea{
 
     .radio{
         margin-left: 20px;
+    }
+
+    #submit{
+        width: 15%;
     }
 }
