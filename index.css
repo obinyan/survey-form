@@ -5,7 +5,7 @@
 
 body{
     background-color: #472be7;
-    filter: brightness(0.8);
+    /**filter: brightness(0.8);**/
 }
 
 h1{
@@ -81,4 +81,29 @@ textarea{
     background-color: #472be7;
     filter: brightness(0.8);
     color: #ffffff;
+}
+
+/** The desktop responsiveness **/
+@media only screen and (min-width: 768px){
+    form{
+        margin: 30px;
+    }
+
+    #name, #email{
+        display: inline;
+        width: 50%;
+        margin-left: 20px;
+    }
+
+    #name-label, #email-label{
+        margin-left: 20px;
+    }
+
+    p{
+        margin-left: 20px;
+    }
+
+    .radio{
+        margin-left: 20px;
+    }
 }
