@@ -87,7 +87,7 @@ textarea{
 @media only screen and (min-width: 768px){
     h1{
         font-size: 80px;
-        margin-bottom: -40px;
+        margin-bottom: -60px;
         text-align: center;
     }
 
@@ -114,8 +114,7 @@ textarea{
 
     #email-label{
         margin-left: 500px;
-        position: absolute;
-        top: -10;
+        margin-bottom: 50px;
     }
 
     p{
@@ -127,7 +126,7 @@ textarea{
     }
 
     textarea{
-        margin: 0 100px;
+        margin: 10px 110px;
     }
 
     #submit{
