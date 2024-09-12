@@ -107,16 +107,16 @@ textarea{
         margin-left: 100px;
     }
 
-     /**#email{
+    #email{
         margin-left: 500px;
         margin-top: -78px;
-    }**/
+    }
 
-     #email-label{
+    #email-label{
         margin-left: 500px;
         position: absolute;
         top: -10;
-     }
+    }
 
     p{
         margin-left: 100px;
