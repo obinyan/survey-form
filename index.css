@@ -86,8 +86,8 @@ textarea{
 /** The desktop responsiveness **/
 @media only screen and (min-width: 768px){
     h1{
-        font-size: 100px;
-        margin-top: 60px;
+        font-size: 80px;
+        margin-top: 100px;
     }
 
     form{
@@ -98,7 +98,7 @@ textarea{
         display: flex;
         flex-direction: row;
         gap: 5px;
-        width: 30%;
+        width: 35%;
         margin-left: 100px;
     }
 
@@ -106,10 +106,10 @@ textarea{
         margin-left: 100px;
     }
 
-     #email{
+     #email, #email-label{
         
         margin-left: 500px;
-        margin-top: -50px;
+        margin-top: -65px;
     }
 
     p{
